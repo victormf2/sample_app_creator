@@ -1,0 +1,6 @@
+encryptionsalt: v1:SYnUT/DJd0w=:v1:PC1jSnxCj5x2g7d/:zJkqVnOiKmzHd0RADp09+kpvtY7xWw==
+config:
+  aws:region: sa-east-1
+  s3_cloud_front_sample:errorDocument: error.html
+  s3_cloud_front_sample:indexDocument: index.html
+  s3_cloud_front_sample:path: ./www

@@ -1,0 +1,13 @@
+name: s3_cloud_front_sample
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+description: A TypeScript program to deploy a static website on AWS
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: static-website-aws-typescript
+
+backend:
+  url: s3://pulumi-state-g6sad7

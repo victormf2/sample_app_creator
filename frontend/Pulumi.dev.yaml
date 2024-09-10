@@ -1,0 +1,6 @@
+encryptionsalt: v1:0O3ror88CxA=:v1:sY/CACG1DaD4KPVH:T0CZu6AUkvbdtC3GGOc7VIt0xdzHfA==
+config:
+  aws:region: sa-east-1
+  s3_cloud_front_sample:errorDocument: error.html
+  s3_cloud_front_sample:indexDocument: index.html
+  s3_cloud_front_sample:path: ./www
